@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: whitesmoke;
+  background-image: url(../Images/pexels-trupert-1032650.jpg); /* Make sure this path matches your image location */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.app-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1.title,
+h2.title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #373636;
+  text-align: center;
+  margin: 0;
+  line-height: 1.1; /* Closer vertical spacing */
+}
+
+/* Optional: Add a tiny bit of space just between the two if needed */
+h2.title {
+  margin-top: 5px;
+}
+
+
+/* Shared Button Styles */
+button {
+  font-size: 16px;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin: 10px;
+  width: 100%;
+  max-width: 250px;
+}
+
+/* Register Button */
+.button-register {
+  background-color: #b02a2a;
+  color: white;
+}
+
+/* Login Button */
+.button-login {
+  background-color: white;
+  color: #b02a2a;
+  border: 2px solid #b02a2a;
+}
+
+/* Hover Effects */
+.button-register:hover {
+  background-color: #8e2222;
+}
+
+.button-login:hover {
+  background-color: #f8dede;
+}
